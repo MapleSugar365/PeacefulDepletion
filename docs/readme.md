@@ -9,7 +9,7 @@
     <a href="readme.zh_cn.md">简体中文</a>
 </p>
 <p align="center">
-<img src="https://img.shields.io/badge/license-MIT%2FCC%20BY--NC--SA%204.0-green" alt="License">
+<img src="https://img.shields.io/badge/license-MIT%2FCC%20BY--NC--SA%204.0-green" alt="License" draggable="false">
 </p>
 
 ## Features
