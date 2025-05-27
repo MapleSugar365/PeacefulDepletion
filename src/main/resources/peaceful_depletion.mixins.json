@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.maplesugar365.peaceful_depletion.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "FoodDataMixin",
+        "PlayerMixin",
+        "ThirstHandlerMixin",
+        "ThirstHooksMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
