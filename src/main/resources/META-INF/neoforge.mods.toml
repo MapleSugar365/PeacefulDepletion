@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="${loader_version_range}"
 license="${mod_license}"
-#issueTrackerURL=""
+issueTrackerURL="https://github.com/MapleSugar365/PeacefulDepletion/issues"
 
 [[mods]]
 modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
-#updateJSONURL=""
-#displayURL=""
+updateJSONURL="https://github.com/MapleSugar365/PeacefulDepletion/releases"
+displayURL="https://github.com/MapleSugar365/PeacefulDepletion"
 #credits=""
 logoFile="logo.png"
 authors="${mod_authors}"
