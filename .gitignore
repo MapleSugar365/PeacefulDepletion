@@ -1,6 +1,5 @@
 # eclipse
 bin
-.eclipse
 *.launch
 .settings
 .metadata
@@ -20,8 +19,6 @@ build
 
 # other
 .vscode
-run-data
-run
-runs
+eclipse
 libs
-repo
+run
