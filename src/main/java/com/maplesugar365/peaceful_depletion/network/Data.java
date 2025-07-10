@@ -1,7 +1,7 @@
 package com.maplesugar365.peaceful_depletion.network;
 
-import net.minecraft.network.FriendlyByteBuf;
-import net.minecraftforge.network.NetworkEvent;
+import net.minecraft.network.PacketBuffer;
+import net.minecraftforge.fml.network.NetworkEvent;
 import java.util.function.Supplier;
 
 public class Data {
@@ -15,11 +15,11 @@ public class Data {
         return data;
     }
 
-    public void encode(FriendlyByteBuf buffer) {
+    public void encode(PacketBuffer buffer) {
         buffer.writeInt(data);
     }
 
-    public static Data decode(FriendlyByteBuf buffer) {
+    public static Data decode(PacketBuffer buffer) {
         return new Data(buffer.readInt());
     }
 
