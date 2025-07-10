@@ -12,7 +12,7 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 @Mixin(ThirstHandler.class)
 public class ThirstHandlerMixin {
     @Redirect(method = "onPlayerTick", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/level/Level;getDifficulty()Lnet/minecraft/world/Difficulty;"))
-    private static Difficulty peaceful_depletion_onPlayerTick_Inject(Level instance) {
+    private Difficulty peaceful_depletion_onPlayerTick_Inject(Level instance) {
         return Difficulty.HARD;
     }
 }
