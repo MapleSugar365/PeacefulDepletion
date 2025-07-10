@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img width="256" src="https://github.com/MapleSugar365/PeacefulDepletion/blob/1.21.1/src/main/resources/logo.png" alt="title">
+    <img width="256" src="https://github.com/MapleSugar365/PeacefulDepletion/blob/neoforge-1.21.1/src/main/resources/logo.png" alt="title">
 </p>
 <hr>
 <p align="center">和平消耗</p>
